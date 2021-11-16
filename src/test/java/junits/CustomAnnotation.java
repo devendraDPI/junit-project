@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
 @Target({ElementType.ANNOTATION_TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Tag("Sanity")
-@Disabled
+//@Disabled
 @Test
 @DisplayName("Negative Test")
 public @interface CustomAnnotation {
